@@ -1,0 +1,102 @@
+/*@media (min-width:768px) {
+	.ml-md-auto,
+	.mx-md-auto {
+		margin-left: 10% !important
+	}
+}*/
+
+.header-v6 .light {
+	font-size: 38px
+}
+
+.bg-1.edge.top-left::before {
+	background-image: none
+}
+
+.swiper-slide .card {
+    height: 345px
+}
+
+.features-carousel .text-center,
+.bg-1.edge.top-left,
+.z2 {
+    z-index: 2
+}
+
+.pt-0 {
+    max-height: 450px !important
+}
+
+.btn-circle .fab {
+    margin-left: 2.2px;
+	font-size: 1rem
+}
+
+.rounded-circle h2 {
+	color: #fff
+}
+
+.rounded-circle h2 {
+	margin: 0
+}
+
+/*.signup-signin {
+    width: 800px;
+    max-width: 90vw;
+    left: 50%;
+    transform: translateX(-50%)
+}*/
+
+/*.mfp-with-anim {
+    width: 800px;
+    max-width: 95vw
+}*/
+
+#sponsors, #volunteers, #nko {
+	display: block !important
+}
+
+main {
+	overflow-x: hidden
+}
+
+#nko .media-body, #volunteers .media-body {
+    margin-top: 40px;
+    transform: translateY(-50%)
+}
+
+.top-left .mt-3 {
+    transform: translateY(20%);
+}
+
+.swiper-container {
+    position: initial !important;
+	height: fit-content
+}
+
+.header .handwritten {
+    margin: 5rem 0 -1rem 0
+}
+
+
+.edge {
+    position: inherit !important
+}
+
+.lang-btn {
+    position: fixed;
+    right: 0;
+}
+
+.lang-btn img {
+    height: 32px;
+    border: 2px solid #fdd54c
+}
+
+.ml-md-auto {
+	margin-right: 1rem
+}
+
+.social-icons .btn-circle {
+    margin: 0 .5rem !important
+}
