@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	document.getElementById('detect-location-btn').addEventListener('click', function() {
 		if (navigator.geolocation) navigator.geolocation.getCurrentPosition(function(position) {
 			var getQuery = new XMLHttpRequest();
-			getQuery.open('GET', 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false&language=en', true);
+			getQuery.open('GET', 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false&language=en&key=AIzaSyD8rVrtqmTpH3oR3e2XZaPxwzt3Wos6HUg', true);
 			getQuery.onreadystatechange = function() {
 				if (getQuery.readyState == 4) {
 					var data = JSON.parse(getQuery.responseText);
