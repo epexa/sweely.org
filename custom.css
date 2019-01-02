@@ -5,6 +5,21 @@
 	}
 }*/
 
+@media (min-width: 768px) {
+	.d-md-none {
+		display: inline-block !important;
+	}
+}
+
+@media (max-width:1024px) {
+	.collapse .signin {
+		margin-right: 86px;
+	}
+	.fixed-top .d-md-none {
+		display: none !important;
+	}
+}
+
 .header-v6 .light {
 	font-size: 38px
 }
