@@ -102,18 +102,6 @@
 	margin: 0
 }
 
-/*.signup-signin {
-    width: 800px;
-    max-width: 90vw;
-    left: 50%;
-    transform: translateX(-50%)
-}*/
-
-/*.mfp-with-anim {
-    width: 800px;
-    max-width: 95vw
-}*/
-
 #sponsors, #volunteers, #nko {
 	display: block !important
 }
@@ -123,7 +111,7 @@ main {
 }
 
 .media-body {
-    margin-top: 36px;
+    margin-top: 40px;
     transform: translateY(-50%)
 }
 
