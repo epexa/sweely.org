@@ -38,22 +38,52 @@
 	}
 
 	.navigation.navbar-sticky .logo {
-		display: block;
+		display: block
 	}
 
 	.site-footer {
-		padding-bottom: 6rem;
+		padding-bottom: 6rem
+	}
+
+	.handwritten.highlight:before {
+    	margin-left: -2.5rem
+	}
+
+	.header .handwritten {
+		margin: 5rem auto -1rem 1rem !important
+	}
+
+	.btn-circle.btn-sm {
+		width: 3rem;
+		height: 3rem
+	}
+
+	.social-icons .btn-circle {
+		margin: .2rem .3rem !important
+	}
+
+	.btn-circle .fab {
+		font-size: 1.5rem !important
+	}
+
+	.navigation {
+		min-height: 55px !important;
+		height: 55px !important
+	}
+
+	.section [class^=container], section [class^=container] {
+    	padding-top: 55px
 	}
 }
 
 
 @media (min-width: 768px) {
 	.d-md-none {
-		display: inline-block !important;
+		display: inline-block !important
 	}
 
 	.fixed-top .nav-link {
-		font-size: 13px !important;
+		font-size: 13px !important
 	}
 }
 
@@ -148,5 +178,5 @@ main {
 }
 
 .social-icons .btn-circle {
-    margin: 0 .5rem !important
+    margin: 0 .5rem
 }

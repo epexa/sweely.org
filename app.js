@@ -13,6 +13,11 @@ window.addEventListener('DOMContentLoaded', function() {
 		});
 	}
 	
+	document.querySelector('.navbar-collapse').addEventListener('click', function() { // mobile nav close onclick
+		if (document.querySelector('.navbar').classList.contains('navbar-expanded'))
+		document.querySelector('.navbar-toggler').click()
+	});
+
 	document.getElementById('detect-location-btn').addEventListener('click', function() {
 		if (navigator.geolocation) navigator.geolocation.getCurrentPosition(function(position) {
 			var getQuery = new XMLHttpRequest();
