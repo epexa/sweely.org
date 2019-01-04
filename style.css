@@ -2165,7 +2165,7 @@ html {
 }
 
 body {
-	font-family: Poppins, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 300;
 	color: #41494f;
 	background-color: #fff;
@@ -2850,7 +2850,7 @@ button:focus {
 	transition: all .3s ease;
 	text-decoration: none;
 	letter-spacing: 1.45px;
-	font-family: Poppins, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	padding: .5rem 1.25rem;
@@ -11020,7 +11020,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Poppins, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 400
 }
 
@@ -11155,7 +11155,7 @@ h6 {
 }
 
 .handwritten {
-	font-family: Caveat, cursive, Poppins, sans-serif
+	font-family: Caveat, cursive, Montserrat, sans-serif
 }
 
 .handwritten.highlight {
@@ -13233,7 +13233,7 @@ main {
 
 .navigation .nav-link {
 	color: #9f55ff;
-	font-family: Poppins, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: .9rem;
 	font-weight: 700;
 	-webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, opacity .3s ease-in-out;
@@ -14742,7 +14742,7 @@ section.shadow {
 }
 
 .pricing .pricing-value {
-	font-family: Poppins, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: 3.25rem
 }
 
