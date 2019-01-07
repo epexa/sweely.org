@@ -1,3 +1,23 @@
+@media (max-width:1024px) {
+	.collapse .signin {
+		margin-right: 86px
+	}
+
+	.fixed-top .d-md-none {
+		display: none !important
+	}
+}
+
+@media (max-width: 768px) {
+	.d-md-none {
+		display: inline-block !important
+	}
+
+	.fixed-top .nav-link {
+		font-size: 13px !important
+	}
+}
+
 @media (max-width: 536px) {
 	.navigation .logo {
 		opacity: 0;
@@ -74,26 +94,25 @@
 	.section [class^=container], section [class^=container] {
     	padding-top: 55px
 	}
-}
 
-
-@media (min-width: 768px) {
-	.d-md-none {
+	.fixed-top .d-md-none {
+		margin-left: 1.5rem;
 		display: inline-block !important
 	}
 
-	.fixed-top .nav-link {
-		font-size: 13px !important
+	.signin .btn-accent {
+		min-width: 220px;
+		margin-left: 50%
+	}
+
+	.section-heading h2 {
+    	font-size: 31px
 	}
 }
 
-@media (max-width:1024px) {
-	.collapse .signin {
-		margin-right: 86px
-	}
-
-	.fixed-top .d-md-none {
-		display: none !important
+@media (max-width: 320px) {
+	.navigation.fixed-top + main .header {
+		padding-top: 30px
 	}
 }
 
@@ -165,7 +184,7 @@ main {
 
 .lang-btn {
     position: fixed;
-    right: 0;
+	right: -.5rem
 }
 
 .lang-btn img {
