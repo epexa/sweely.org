@@ -51,7 +51,8 @@ window.addEventListener('DOMContentLoaded', function() {
 				swal('Sorry...', responseData.message, 'warning');
 			} */
 			swal({title: 'Thank you!', text: 'Your request is accepted, you will be notified by email!'});
-			document.querySelector('.mfp-close').click();
+			$('#modal-form').modal('hide');
+			document.querySelector('body').style = '';
 			$requestNewModalForm.reset();
 		});
 	});
@@ -90,6 +91,9 @@ window.addEventListener('DOMContentLoaded', function() {
 		});
 	}
 	
+	$('.modal-popup').bind('click', function() {
+		$('#modal-form').modal('show')
+	})
 });
 
 function postAjax(url, data, success) {
@@ -210,8 +214,6 @@ $(function() {
             }
 			
 			var options = $.extend({}, defaults, attributes);
-
-            $element.magnificPopup(options);
         });
     })();
 

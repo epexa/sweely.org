@@ -203,3 +203,13 @@ main {
 .social-icons .btn-circle {
     margin: 0 .5rem
 }
+
+.modal-close {
+    text-align: end;
+    margin: .5rem .75rem
+}
+
+/*
+body {
+	padding-right: 0 !important
+}*/
