@@ -38,7 +38,10 @@
 	}
 
 	.fixed-top .fas {
-		display: inline-block !important
+		display: flex !important;
+		position: absolute;
+		top: 50%;
+		transform: translateY(25%);
 	}
 
 	.mt-6n {
@@ -97,12 +100,13 @@
 
 	.fixed-top .d-md-none {
 		margin-left: 1.5rem;
-		display: inline-block !important
+		display: inline !important
 	}
 
 	.signin .btn-accent {
 		min-width: 220px;
-		margin-left: 50%
+		margin-left: 50%;
+		text-align: center
 	}
 
 	.section-heading h2 {
