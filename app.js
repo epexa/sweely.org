@@ -18,6 +18,22 @@ window.addEventListener('DOMContentLoaded', function() {
 		document.querySelector('.navbar-toggler').click()
 	});
 
+	document.querySelector('.navbar-toggler').addEventListener('click', function() {
+		if (!document.querySelector('.navbar').classList.contains('navbar-expanded')) {
+			document.querySelector('body').style.position = 'fixed'
+			document.querySelector('.lang-btn').style.display = 'none'
+			document.querySelector('main').style.display = 'none'
+			document.querySelector('footer').style.display = 'none'
+			document.querySelector('.logo-sticky').style.display = 'none'
+		} else {
+			document.querySelector('body').style.position = 'inherit'
+			document.querySelector('.lang-btn').style.display = 'block'
+			document.querySelector('main').style.display = 'block'
+			document.querySelector('footer').style.display = 'block'
+			document.querySelector('.logo-sticky').style.display = 'block'
+		}
+	})
+
 	document.getElementById('detect-location-btn').addEventListener('click', function() {
 		if (navigator.geolocation) navigator.geolocation.getCurrentPosition(function(position) {
 			var getQuery = new XMLHttpRequest();
