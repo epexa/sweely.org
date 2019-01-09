@@ -209,7 +209,7 @@ main {
     margin: .5rem .75rem
 }
 
-/*
-body {
-	padding-right: 0 !important
-}*/
+.modal-open,
+.modal-open nav {
+    padding-right: initial !important
+}

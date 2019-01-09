@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', function() {
 			} */
 			swal({title: 'Thank you!', text: 'Your request is accepted, you will be notified by email!'});
 			$('#modal-form').modal('hide');
-			document.querySelector('body').style = '';
+			//document.querySelector('body').style = '';
 			$requestNewModalForm.reset();
 		});
 	});
