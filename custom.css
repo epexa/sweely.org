@@ -1,8 +1,4 @@
 @media (max-width:1024px) {
-	.collapse .signin {
-		margin-right: 86px
-	}
-
 	.fixed-top .d-md-none {
 		display: none !important
 	}
@@ -16,9 +12,17 @@
 	.fixed-top .nav-link {
 		font-size: 13px !important
 	}
+
+	#modalLang a {
+		display: grid
+	}
 }
 
 @media (max-width: 536px) {
+	.collapse .signin {
+		margin-right: 86px
+	}
+
 	.navigation .logo {
 		opacity: 0;
     	transition-duration: .1s
@@ -38,10 +42,7 @@
 	}
 
 	.fixed-top .fas {
-		display: flex !important;
-		position: absolute;
-		top: 50%;
-		transform: translateY(25%);
+		display: inline !important
 	}
 
 	.mt-6n {
@@ -103,14 +104,20 @@
 		display: inline !important
 	}
 
-	.signin .btn-accent {
+	.signin button {
 		min-width: 220px;
 		margin-left: 50%;
-		text-align: center
+		text-align: center;
+		margin-right: 0 !important;
+		margin-bottom: 1rem !important
 	}
 
 	.section-heading h2 {
     	font-size: 31px
+	}
+
+	#modalLang a {
+		font-size: 16px
 	}
 }
 
@@ -186,18 +193,9 @@ main {
     position: inherit !important
 }
 
-.lang-btn {
-    position: fixed;
-	right: -.5rem
-}
-
 .lang-btn img {
     height: 32px;
     border: 2px solid #fdd54c
-}
-
-.ml-md-auto {
-	margin-right: 1rem
 }
 
 .social-icons .btn-circle {
@@ -212,4 +210,24 @@ main {
 .modal-open,
 .modal-open nav {
     padding-right: initial !important
+}
+
+#modalLang .img-thumbnail {
+    padding: 0px;
+    height: 30px;
+    width: 40px;
+	margin-right: 3px
+}
+
+#modalLang .modal-body {
+    margin-top: -1rem
+}
+
+#modalLang a {
+    font-size: 18px;
+    color: #343434
+}
+
+#modalLang h2 {
+    font-size: 30px
 }

@@ -21,13 +21,11 @@ window.addEventListener('DOMContentLoaded', function() {
 	document.querySelector('.navbar-toggler').addEventListener('click', function() {
 		if (!document.querySelector('.navbar').classList.contains('navbar-expanded')) {
 			document.querySelector('body').style.position = 'fixed'
-			document.querySelector('.lang-btn').style.display = 'none'
 			document.querySelector('main').style.display = 'none'
 			document.querySelector('footer').style.display = 'none'
 			document.querySelector('.logo-sticky').style.display = 'none'
 		} else {
 			document.querySelector('body').style.position = 'inherit'
-			document.querySelector('.lang-btn').style.display = 'block'
 			document.querySelector('main').style.display = 'block'
 			document.querySelector('footer').style.display = 'block'
 			document.querySelector('.logo-sticky').style.display = 'block'
@@ -109,6 +107,10 @@ window.addEventListener('DOMContentLoaded', function() {
 	
 	$('.modal-popup').bind('click', function() {
 		$('#modal-form').modal('show')
+	})
+
+	$('.lang-btn').bind('click', function() {
+		$('#modalLang').modal('show')
 	})
 });
 
