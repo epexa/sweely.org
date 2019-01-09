@@ -55,8 +55,7 @@
 	<nav class="navbar navbar-expand-md navigation sidebar-left main-nav fixed-top">
 		<div class="container">
 			<button class="navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a href="#" class="navbar-brand">
-				<!-- <img src="../graphics/logo-light.png" alt="" class="logo logo-sticky d-block d-md-none">
-            <img src="../graphics/logo.png" alt="" class="logo d-none d-md-block"> --> <img src="../graphics/logo.png" alt="" class="logo logo-sticky"></a>
+				<img src="../graphics/logo.png" alt="" class="logo logo-sticky"></a>
 			<div class="collapse navbar-collapse ml-auto">
 				<div class="sidebar-brand"><a href="#"><img src="../graphics/logo.png" alt="" class="logo"></a></div>
 				<ul class="nav navbar-nav ml-auto">
@@ -65,15 +64,16 @@
 					<li class="nav-item"><a class="nav-link" href="#npo">НКО</a></li>
 				</ul><span class="navbar-divider"></span>
 				<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row signin">
-					<!--<a class="btn btn-rounded btn-outline mr-3 px-3" href="javascript:;" target="_blank">
-					<i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i> 
-					<span class="d-md-none d-lg-inline">Login</span></a>-->
-					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
+					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mr-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-						<span class="d-md-none d-lg-inline">Зарегистрироваться в бета-версии!</span></button>
+						<span class="d-md-none d-lg-inline">Начать!</span>
+					</button>
+					<button class="btn btn-rounded btn-1 px-3 lang-btn">
+						<i class="fas fa-globe-americas d-none d-md-inline mr-md-0 mr-lg-2"></i>
+						<span class="d-md-none d-lg-inline">Language</span>
+					</button>
 				</nav>
 			</div>
-			<a href="https://sweely.org/" class="lang-btn nav-link">English <img src="../graphics/en.svg"></a>
 		</div>
 	</nav>
 	<main>
@@ -93,7 +93,7 @@
 							<a href="#" class="nav-link btn btn-rounded btn-accent bw-2">Start now</a>-->
 							<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
 								<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-								<span class="d-md-none d-lg-inline">Зарегистрироваться в бета-версии!</span></button>
+								<span class="d-md-none d-lg-inline">Начать!</span></button>
 						</nav>
 					</div>
 				</div>
@@ -200,7 +200,7 @@
 					<a href="javascript:;" class="btn btn-link">Contact us</a>-->
 					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-						<span class="d-md-none d-lg-inline">Зарегистрироваться в бета-версии!</span></button>
+						<span class="d-md-none d-lg-inline">Начать!</span></button>
 				</div>
 			</div>
 		</section>
@@ -336,7 +336,7 @@
 					<a href="javascript:;" class="btn btn-link">Contact us</a>-->
 					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-						<span class="d-md-none d-lg-inline">Зарегистрироваться в бета-версии!</span></button>
+						<span class="d-md-none d-lg-inline">Начать!</span></button>
 				</div>
 			</div>
 		</section>
@@ -452,7 +452,7 @@
 					<a href="javascript:;" class="btn btn-link">Contact us</a>-->
 					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-						<span class="d-md-none d-lg-inline">Зарегистрироваться в бета-версии!</span></button>
+						<span class="d-md-none d-lg-inline">Начать!</span></button>
 				</div>
 			</div>
 		</section>
@@ -474,7 +474,7 @@
 					<br>
 					<button class="btn btn-rounded btn-warning px-3 mt-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
-						<span class="d-md-none d-lg-inline">Зарегистрироваться в бета-версии!</span></button>
+						<span class="d-md-none d-lg-inline">Начать!</span></button>
 				</div>
 			</div>
 		</section>
@@ -526,6 +526,64 @@
 								</fieldset>
 							</form>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="modalLang">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<div class="modal-body col-md-8 pb-4 mx-auto">
+					<h2 class="modal-title mb-4">Choose language</h2>
+						<form class="container">
+							<div id="row1" class="row">
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/" class="form-check-label" for="en"><img class="img-thumbnail" src="../graphics/flags/en.svg">English</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/ru/" class="form-check-label" for="ru"><img class="img-thumbnail" src="../graphics/flags/ru.svg">Русский</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/es/" class="form-check-label" for="es"><img class="img-thumbnail" src="../graphics/flags/es.svg">Español</a>
+								</div>
+							</div>
+							<div id="row2" class="row">
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/pl/" class="form-check-label" for="pl"><img class="img-thumbnail" src="../graphics/flags/pl.svg">Polski</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/de/" class="form-check-label" for="pl"><img class="img-thumbnail" src="../graphics/flags/de.svg">Deutsch</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/it/" class="form-check-label" for="it"><img class="img-thumbnail" src="../graphics/flags/it.svg">Italiano</a>
+								</div>
+							</div>
+							<!--<div id="row3" class="row">
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/ua/" class="form-check-label" for="ua"><img class="img-thumbnail" src="../graphics/flags/ua.svg">України</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/fr/" class="form-check-label" for="fr"><img class="img-thumbnail" src="../graphics/flags/fr.svg">Français</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/by/" class="form-check-label" for="by"><img class="img-thumbnail" src="../graphics/flags/by.svg">Беларускі</a>
+								</div>
+							</div>-->
+							<!--<div id="row4" class="row">
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/jp/" class="form-check-label" for="jp"><img class="img-thumbnail" src="../graphics/flags/jp.svg">日本語</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/cn/" class="form-check-label" for="cn"><img class="img-thumbnail" src="../graphics/flags/cn.svg">中国</a>
+								</div>
+								<div class="pb-4 col-4">
+									<a href="https://sweely.org/kr/" class="form-check-label" for="kr"><img class="img-thumbnail" src="../graphics/flags/kr.svg">한국어</a>
+								</div>
+							</div>-->
+						</form>
 					</div>
 				</div>
 			</div>
