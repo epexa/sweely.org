@@ -1,4 +1,10 @@
-@media (max-width:1024px) {
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1250px;
+	}
+}
+
+@media (max-width: 1024px) {
 	.fixed-top .d-md-none {
 		display: none !important
 	}
