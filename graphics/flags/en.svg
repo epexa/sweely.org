@@ -1,15 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-gb" width="512" height="512">
-  <defs>
-    <clipPath id="a">
-      <path fill-opacity=".7" d="M250 0h500v500H250z"/>
-    </clipPath>
-  </defs>
-  <g clip-path="url(#a)" transform="translate(-256) scale(1.024)">
-    <g stroke-width="1pt">
-      <path fill="#006" d="M0 0h1000v500H0z"/>
-      <path fill="#fff" d="M0 0v55.9L888.2 500H1000v-55.9L111.8.1H0zm1000 0v55.9L111.8 500H0v-55.9L888.2 0H1000z"/>
-      <path fill="#fff" d="M416.7 0v500h166.6V0H416.7zM0 166.7v166.6h1000V166.7H0z"/>
-      <path fill="#c00" d="M0 200v100h1000V200H0zM450 0v500h100V0H450zM0 500l333.3-166.7H408L74.5 500H0zM0 0l333.3 166.7h-74.5L0 37.3V0zm592.1 166.7L925.5 0h74.5L666.7 166.7H592zm408 333.3L666.6 333.3h74.5L1000 462.7V500z"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="flag-icon-css-gb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#000066;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#CC0000;}
+</style>
+<g>
+	<g transform="translate(-256) scale(1.024)">
+		<g>
+			<path class="st0" d="M167.6,0.5h801.4v468.8H167.6V0.5z"/>
+			<path class="st1" d="M167.6,0.5v52.4l711.8,416.3h89.6v-52.4L257.2,0.6L167.6,0.5L167.6,0.5z M968.9,0.5v52.4L257.2,469.2h-89.6
+				v-52.4L879.3,0.5H968.9z"/>
+			<path class="st1" d="M501.5,0.5v468.8H635V0.5H501.5z M167.6,156.8V313h801.4V156.8H167.6z"/>
+			<path class="st2" d="M167.6,189v93.8h801.4V189H167.6z M528.2,1.5v468.8h80.1V1.5H528.2z M167.6,470.2l267.1-156.3h59.9
+				L227.3,470.2H167.6z M167.6,1.5l267.1,156.3H375L167.6,36.4V1.5z M642.1,157.7L909.2,1.5h59.7L701.8,157.7H642.1L642.1,157.7z
+				 M969,470.2L701.8,313.9h59.7l207.5,121.3L969,470.2L969,470.2z"/>
+		</g>
+	</g>
+</g>
 </svg>
