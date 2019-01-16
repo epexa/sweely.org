@@ -263,6 +263,8 @@ main {
 }
 
 .circle-carousel p {
+	visibility: hidden;
+	opacity: 0;
 	font-size: 21px;
 	color: #474ebb;
 	text-shadow: 1px 1px 0 #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff
@@ -271,5 +273,24 @@ main {
 .circle-carousel .content-box-inner {
 	box-shadow: none;
 	width: 90%;
-	height: 90%;
+	height: 90%
+}
+
+.content-box-img,
+.content-title p,
+.content-title h4 {
+    transition: .9s
+}
+
+.content-box-inner:hover .content-box-img {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px)
+}
+
+.content-box-inner:hover p {
+	visibility: visible;
+	opacity: 1
 }
