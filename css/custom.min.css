@@ -266,6 +266,7 @@ main {
 	visibility: hidden;
 	opacity: 0;
 	font-size: 21px;
+	font-weight: bold;
 	color: #474ebb;
 	text-shadow: 1px 1px 0 #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff
 }
