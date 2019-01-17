@@ -263,8 +263,6 @@ main {
 }
 
 .circle-carousel p {
-	visibility: hidden;
-	opacity: 0;
 	font-size: 21px;
 	font-weight: bold;
 	color: #474ebb;
@@ -284,14 +282,17 @@ main {
 }
 
 .content-box-inner:hover .content-box-img {
+	-webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none
+}
+
+.content-box-img {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px)
-}
-
-.content-box-inner:hover p {
-	visibility: visible;
-	opacity: 1
 }
