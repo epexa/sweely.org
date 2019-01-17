@@ -296,3 +296,31 @@ main {
     -ms-filter: blur(5px);
     filter: blur(5px)
 }
+
+.cc-color-override-1804993606.cc-window {
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 122, 252)
+}
+
+.cc-color-override-1804993606 .cc-btn {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    padding: 5px 40px
+}
+
+.cc-color-override-1804993606 .cc-link,
+.cc-color-override-1804993606 .cc-link:active,
+.cc-color-override-1804993606 .cc-link:visited {
+    color: rgb(255, 255, 255)
+}
+
+.cc-banner .cc-message {
+    flex: none
+}
+
+.cc-window {
+	visibility: visible;
+	transition: .9s;
+	opacity: 0
+}
