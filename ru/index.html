@@ -42,11 +42,11 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@4.4.6/dist/css/swiper.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-	<link rel="stylesheet" href="../css/helper.css">
-	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/helper.min.css">
+	<link rel="stylesheet" href="../css/styles.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.6.3/css/all.min.css">
 	<link rel="stylesheet" href="../css/carousel.min.css">
-	<link rel="stylesheet" href="../custom.css?201901161810">
+	<link rel="stylesheet" href="../css/custom.min.css">
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="1500" data-aos-delay="0">
@@ -60,15 +60,18 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-				<img src="../graphics/logo.png" alt="" class="logo logo-sticky"></a>
+			<a class="navbar-brand" href="#" aria-label="navbar">
+				<img src="../graphics/logo.png" alt="logo" class="logo logo-sticky">
+			</a>
 			<div class="collapse navbar-collapse ml-auto">
 				<div class="sidebar-brand"><a href="#"><img src="../graphics/logo.png" alt="" class="logo"></a></div>
 				<ul class="nav navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="#sponsors">Спонсорам</a></li>
 					<li class="nav-item"><a class="nav-link" href="#volunteers">Волонтерам</a></li>
 					<li class="nav-item"><a class="nav-link" href="#npo">НКО</a></li>
+					<li class="nav-item"><a class="nav-link" href="#how">Как это работает</a></li>
 				</ul><span class="navbar-divider"></span>
-				<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row signin">
+				<nav class="nav navbar-nav justify-content-center mt-4 mt-md-0 flex-row signin">
 					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mr-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
 						<span class="d-md-none d-lg-inline">Начать!</span>
@@ -213,7 +216,6 @@
 								<div class="card-body">
 									<div class="rounded-circle bg-6 p-3 d-flex align-items-center justify-content-center shadow icon-xl"><img src="../graphics/add.svg" class="img-responsive" alt=""></div>
 									<h4 class="mt-4"><span class="bold">Добавь свой ресурс!</span></h4>
-									<!--<p>Vulputate mi habitant curae; per facilisis. Ornare. Imperdiet curabitur, enim venenatis donec consequat adipiscing.</p>-->
 								</div>
 							</div>
 						</div>
@@ -222,7 +224,6 @@
 								<div class="card-body">
 									<div class="rounded-circle bg-6 p-3 d-flex align-items-center justify-content-center shadow icon-xl"><img src="../graphics/room-rent.svg" class="img-responsive" alt=""></div>
 									<h4 class="mt-4"><span class="bold">Аренда<br>помещения</span></h4>
-									<!--<p>Vulputate mi habitant curae; per facilisis. Ornare. Imperdiet curabitur, enim venenatis donec consequat adipiscing.</p>-->
 								</div>
 							</div>
 						</div>
@@ -240,7 +241,6 @@
 								<div class="card-body">
 									<div class="rounded-circle bg-6 p-3 d-flex align-items-center justify-content-center shadow icon-xl"><img src="../graphics/promocode.svg" class="img-responsive" alt=""></div>
 									<h4 class="mt-4"><span class="bold">Промокод<br>на скидку</span></h4>
-									<!--<p>Vulputate mi habitant curae; per facilisis. Ornare. Imperdiet curabitur, enim venenatis donec consequat adipiscing.</p>-->
 								</div>
 							</div>
 						</div>
@@ -276,7 +276,6 @@
 									<div class="rounded-circle bg-info shadow-info color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-shopping-cart pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Опубликовать свой проект</h5>
-										<!--<p class="my-0">Создать свой проект - опубликовать.</p>-->
 									</div>
 								</div>
 							</li>
@@ -285,7 +284,6 @@
 									<div class="rounded-circle bg-4 shadow-4 color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-share-alt pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Найти волонтёров</h5>
-										<!--<p class="my-0">Найти волонтеров.</p>-->
 									</div>
 								</div>
 							</li>
@@ -294,7 +292,6 @@
 									<div class="rounded-circle bg-danger shadow-danger color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-donate pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Найти нужные ресурсы</h5>
-										<!--<p class="my-0">Найти нужные ресурсы.</p>-->
 									</div>
 								</div>
 							</li>
@@ -303,7 +300,6 @@
 									<div class="rounded-circle bg-success shadow-success color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-money-bill pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Получить вознаграждение за выполнение проекта</h5>
-										<!--<p class="my-0">Получить вознаграждение за выполнение проекта.</p>-->
 									</div>
 								</div>
 							</li>
@@ -312,7 +308,6 @@
 									<div class="rounded-circle bg-danger shadow-danger color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-donate pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Перечислить вознаграждения волонтерам</h5>
-										<!--<p class="my-0">Перечислить вознаграждения волонтерам.</p>-->
 									</div>
 								</div>
 							</li>
@@ -326,9 +321,6 @@
 					</div>
 				</div>
 				<div class="mt-5 text-center">
-					<!--<a href="javascript:;" class="btn btn-accent btn-rounded">Register for a free demo</a>
-						<p class="small">- or -</p>
-					<a href="javascript:;" class="btn btn-link">Contact us</a>-->
 					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
 						<span class="d-md-none d-lg-inline">Начать!</span></button>
@@ -339,7 +331,6 @@
 			<br>
 			<div class="section-heading text-center">
 				<h2 class="bold">Примеры проектов:</h2>
-				<!--<p class="lead">Тут ты можешь:</p>-->
 			</div>
 			<div class="container pt-0">
 				<div class="swiper-container swiper-container-horizontal" data-sw-show-items="4" data-sw-autoplay="3500" data-sw-loop="true" data-sw-nav-arrows=".features-nav" data-sw-breakpoints='{"1024": {"slidesPerView": 4,"spaceBetween": 40},"992": {"slidesPerView": 3,"spaceBetween": 30},"768": {"slidesPerView": 2,"spaceBetween": 30},"576": {"slidesPerView": 1,"spaceBetween": 10}}'>
@@ -349,7 +340,6 @@
 								<div class="card-body">
 									<div class="rounded-circle bg-6 p-3 d-flex align-items-center justify-content-center shadow icon-xl"><img src="../graphics/add.svg" class="img-responsive" alt=""></div>
 									<h4 class="mt-4"><br><span class="bold">Добавь свое!</span></h4>
-									<!--<p>(кнопкой с редиректом на регистрацию)</p>-->
 								</div>
 							</div>
 						</div>
@@ -403,7 +393,6 @@
 									<div class="rounded-circle bg-info shadow-info color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-shopping-cart pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Выбрать понравившийся проект и помочь в его реализации</h5>
-										<!--<p class="my-0">Выбрать понравившийся проект и помочь в его реализации.</p>-->
 									</div>
 								</div>
 							</li>
@@ -412,7 +401,6 @@
 									<div class="rounded-circle bg-4 shadow-4 color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-share-alt pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Получить вознаграждение за свою работу</h5>
-										<!--<p class="my-0">Получить вознаграждение за свою работу.</p>-->
 									</div>
 								</div>
 							</li>
@@ -421,7 +409,6 @@
 									<div class="rounded-circle bg-danger shadow-danger color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-donate pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Потратить заработанные вознаграждения на ресурсы в разделе “Магазин”</h5>
-										<!--<p class="my-0">Потратить свои полученные вознаграждения на ресурсы спонсоров в разделе “Магазин”.</p>-->
 									</div>
 								</div>
 							</li>
@@ -430,7 +417,6 @@
 									<div class="rounded-circle bg-success shadow-success color-1 p-3 icon-xl d-flex align-items-center justify-content-center mr-3"><i class="fas fa-money-bill pe-2x"></i></div>
 									<div class="media-body">
 										<h5 class="bold">Перевести вознаграждения социальным проектам</h5>
-										<!--<p class="my-0">Перевести социальным проектам.</p>-->
 									</div>
 								</div>
 							</li>
@@ -442,9 +428,6 @@
 					</div>
 				</div>
 				<div class="mt-5 text-center">
-					<!--<a href="javascript:;" class="btn btn-accent btn-rounded">Register for a free demo</a>
-						<p class="small">- or -</p>
-					<a href="javascript:;" class="btn btn-link">Contact us</a>-->
 					<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mt-md-0 modal-popup">
 						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
 						<span class="d-md-none d-lg-inline">Начать!</span></button>
@@ -458,6 +441,118 @@
 						<p class="light mb-0 accent lead">Ты можешь купить товары и услуги спонсоров</p>
 						<h2 class="mt-0">за вознаграждения!</h2>
 					</div><a href="#resourses" class="btn btn-accent btn-rounded mt-3 mt-md-0 ml-md-auto"><span><i class="fas fa-cart-plus d-md-inline mr-md-0 mr-lg-2"></i>Показать список товаров и услуг</span></a>
+				</div>
+			</div>
+		</section>
+		<section class="text-center" id="how">
+			<div class="container">
+				<div class="section-heading text-center">
+					<h2 class="bold">Как это работает?</h2>
+				</div>
+				<!-- Circle carousel -->
+				<div class="carousel-wrapper">
+					<div class="circle-carousel" data-speed="1000" data-autoplay="5000">
+						<!-- slides -->
+						<div class="slides">
+							<div class="content-box">
+								<div class="content-box-inner">
+									<div class="content-box-img bg-overlay-dark" style="background-image: url(../graphics/volunteer.svg)">
+									</div>
+									<div class="content-title-wrap">
+										<div class="content-title">
+											<h4><a href="#how">Волонтер</a></h4>
+											<p>Помогает в реализации проекта</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="content-box-inner">
+									<div class="content-box-img bg-overlay-dark" style="background-image: url(../graphics/social-project.svg)">
+
+									</div>
+									<div class="content-title-wrap">
+										<div class="content-title">
+											<h4><a href="#how">Социальный проект</a></h4>
+											<p>Приносит пользу обществу</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="content-box-inner">
+									<div class="content-box-img bg-overlay-dark" style="background-image: url(../graphics/npo.svg)">
+
+									</div>
+									<div class="content-title-wrap">
+										<div class="content-title">
+											<h4><a href="#how">НКО</a></h4>
+											<p>Создает социальые проекты</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="content-box-inner">
+									<div class="content-box-img bg-overlay-dark" style="background-image: url(../graphics/resources.svg)">
+									</div>
+									<div class="content-title-wrap">
+										<div class="content-title">
+											<h4><a href="#how">Ресурс</a></h4>
+											<p>Товары или услуги спонсоров</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="content-box-inner">
+									<div class="content-box-img bg-overlay-dark" style="background-image: url(../graphics/sponsor.svg)">
+									</div>
+									<div class="content-title-wrap">
+										<div class="content-title">
+											<h4><a href="#how">Спонсор</a></h4>
+											<p>Предоставляет товары или услуги в разделе "Магазин"</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="content-box-inner">
+									<div class="content-box-img bg-overlay-dark" style="background-image: url(../graphics/reward.svg)">
+									</div>
+									<div class="content-title-wrap">
+										<div class="content-title">
+											<h4><a href="#how">Вознаграждение</a></h4>
+											<p>В валюте нашей платформы</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- pagination-->
+						<div class="pagination">
+							<div class="item">
+								<div class="dot"><i class="fas fa-male"></i></div>
+							</div>
+							<div class="item">
+								<div class="dot"><i class="fas fa-file-signature"></i></div>
+							</div>
+							<div class="item">
+								<div class="dot"><i class="fas fa-users"></i></div>
+							</div>
+							<div class="item">
+								<div class="dot"><i class="fas fa-people-carry"></i></div>
+							</div>
+							<div class="item">
+								<div class="dot"><i class="fas fa-hand-holding-usd"></i></div>
+							</div>
+							<div class="item">
+								<div class="dot"><i class="fas fa-gift"></i></div>
+							</div>
+						</div>
+						<div class="btn btn-rounded btn-accent prev"><span><i class="fas fa-arrow-left pe-2x"></i></span></div>
+						<div class="btn btn-rounded btn-accent next"><span><i class="fas fa-arrow-right pe-2x"></i></span></div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -583,22 +678,45 @@
 				</div>
 			</div>
 		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="modalSuccess">
+				<div class="modal-dialog modal-md" role="document">
+					<div class="modal-content">
+						<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						<div class="modal-body text-center col-md-8 pb-4 mx-auto">
+							<h2 class="modal-title mb-4">Спасибо!</h2>
+							<h1 class="mb-4 text-center fs-7 text-success">
+								<i class="far fa-check-circle"></i>
+							</h1>
+							<h5>Ваш запрос принят, мы уведомим вас по электронной почте!</h5>
+							<button type="button" class="btn btn-rounded btn-success px-3 modal-close" data-dismiss="modal" aria-label="Close">OK</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-1804993606" style="">
+				<span id="cookieconsent:desc" class="cc-message">Этот веб-сайт использует куки-файлы, чтобы обеспечить вам максимальный комфорт. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="docs/cookie-policy-eng.pdf" rel="noopener noreferrer nofollow" target="_blank">Подробнее</a></span>
+				<div class="cc-compliance" id="cookie-btn">
+					<a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Я понимаю!</a>
+				</div>
+		</div>
 	</main>
 	<footer class="site-footer section bg-5 color-1 text-center block bg-1">
-		<div class="container py-4"><img src="../graphics/logo-light.png" alt="" class="logo">
+		<div class="container py-4"><img src="../graphics/logo.png" alt="" class="logo">
 			<p class="lead mt-5">Не жди - попробуй <span class="bold">Sweely </span> прямо сейчас!</p>
 			<p class="copyright my-5">© 2018-2019 Sweely - из Беларуси с ❤️</p>
 			<hr class="mt-5 bg-2 op-5">
 			<nav class="nav social-icons justify-content-center mt-4">
-				<a href="https://fb.com/" class="btn color-1 btn-circle btn-sm brand-facebook mr-3"><i class="fab fa-facebook"></i></a>
-				<a href="https://t.me/" class="btn color-1 btn-circle btn-sm brand-telegram mr-3"><i class="fab fa-telegram"></i></a>
-				<a href="https://vk.com/" class="btn color-1 btn-circle btn-sm brand-behance mr-3"><i class="fab fa-vk"></i></a>
-				<a href="https://instagram.com/" class="btn color-1 btn-circle btn-sm brand-instagram mr-3"><i class="fab fa-instagram"></i></a>
-				<a href="https://linkedin.com/" class="btn color-1 btn-circle btn-sm brand-linkedin mr-3"><i class="fab fa-linkedin"></i></a>
-				<a href="https://ok.ru/" class="btn color-1 btn-circle btn-sm brand-soundcloud mr-3"><i class="fab fa-odnoklassniki"></i></a>
-				<a href="https://twitter.com/" class="btn color-1 btn-circle btn-sm brand-twitter mr-3"><i class="fab fa-twitter"></i></a>
-				<a href="https://plus.google.com/" class="btn color-1 btn-circle btn-sm brand-google mr-3"><i class="fab fa-google-plus"></i></a>
-				<a href="https://youtube.com/" class="btn color-1 btn-circle btn-sm brand-youtube mr-3"><i class="fab fa-youtube"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-facebook mr-3" href="https://fb.com/" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-telegram mr-3" href="https://t.me/" aria-label="telegram"><i class="fab fa-telegram"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-behance mr-3" href="https://vk.com/" aria-label="vkontakte"><i class="fab fa-vk"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-instagram mr-3" href="https://instagram.com/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-linkedin mr-3" href="https://linkedin.com/" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-soundcloud mr-3" href="https://ok.ru/" aria-label="odnoklassniki"><i class="fab fa-odnoklassniki"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-twitter mr-3" href="https://twitter.com/" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-google mr-3" href="https://plus.google.com/" aria-label="gplus"><i class="fab fa-google-plus"></i></a>
+				<a class="btn color-1 btn-circle btn-sm brand-youtube mr-3" href="https://youtube.com/" aria-label="youtube"><i class="fab fa-youtube"></i></a>
 			</nav>
 		</div>
 	</footer>
@@ -606,7 +724,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@4.4.6/dist/js/swiper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-	<script src="../app.js?201901150110"></script>
+	<script src="../app.min.js"></script>
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {},
