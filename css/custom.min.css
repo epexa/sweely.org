@@ -51,10 +51,6 @@ body, .btn,
 }
 
 @media (max-width:536px) {
-	.collapse .signin {
-		margin-right: 86px
-	}
-
 	.navigation .logo {
 		opacity: 0;
 		transition-duration: .1s
@@ -139,7 +135,6 @@ body, .btn,
 
 	.signin button {
 		min-width: 220px;
-		margin-left: 50%;
 		text-align: center;
 		margin-right: 0 !important;
 		margin-bottom: 1rem !important
@@ -159,6 +154,14 @@ body, .btn,
 
 	.circle-carousel p {
 		font-size: 18px !important
+	}
+
+	.navigation.sidebar-left .collapse {
+		left: -100%
+	}
+
+	.navigation.navbar-expanded.sidebar-left .collapse {
+		width: 100%
 	}
 }
 
@@ -349,4 +352,10 @@ main {
 	visibility: visible;
 	transition: .9s;
 	opacity: 0
+}
+
+.navigation.navbar-expanded.sidebar-left .navbar-brand, .navigation.navbar-expanded.sidebar-left .navbar-toggler, .navigation.navbar-expanded.sidebar-left~main {
+    -webkit-transform: translate(80vw, 50%);
+    transform: translate(80vw, 50%);
+	z-index: 1;
 }
