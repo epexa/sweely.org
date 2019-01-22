@@ -163,6 +163,10 @@ body, .btn,
 	.navigation.navbar-expanded.sidebar-left .collapse {
 		width: 100%
 	}
+
+	#modalWrongLang .modal-body {
+		margin-top: -2rem
+	}
 }
 
 @media (max-width:320px) {
@@ -357,5 +361,14 @@ main {
 .navigation.navbar-expanded.sidebar-left .navbar-brand, .navigation.navbar-expanded.sidebar-left .navbar-toggler, .navigation.navbar-expanded.sidebar-left~main {
     -webkit-transform: translate(80vw, 50%);
     transform: translate(80vw, 50%);
-	z-index: 1;
+	z-index: 1
+}
+
+#modalWrongLang .img-thumbnail {
+    width: 50px
+}
+
+#modalWrongLang .btn {
+	min-width: 80px;
+    text-align: center
 }

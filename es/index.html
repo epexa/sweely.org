@@ -699,6 +699,20 @@
 					<a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Entiendo!</a>
 				</div>
 		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="modalWrongLang">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">×</span>
+					</button>
+					<div class="modal-body col-md-6 pb-4 mx-auto text-center">
+						<h4 class="modal-title mb-4" id="textLang"></h4>
+						<button type="button" class="btn btn-primary btn-rounded px-3" id="acceptLang"></button>
+						<button type="button" class="btn btn-secondary btn-rounded px-3" id="dismissLang" data-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer class="site-footer section bg-5 color-1 text-center block bg-1">
 		<div class="container py-4"><img src="../graphics/logo.png" alt="" class="logo">
@@ -723,6 +737,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/swiper@4.4.6/dist/js/swiper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 	<script src="../app.min.js"></script>
+	<script src="../lang.js"></script>
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {},
