@@ -36,6 +36,12 @@ body, .btn,
 	}
 }
 
+@media (min-width: 768px) {
+	.navigation .nav-link {
+    	padding-left: 0 !important
+	}
+}
+
 @media (max-width:768px) {
 	.d-md-none {
 		display: inline-block !important
