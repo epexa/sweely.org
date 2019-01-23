@@ -370,11 +370,11 @@ main {
 	z-index: 1
 }
 
-#modalWrongLang .img-thumbnail {
+#modal-wrong-lang .img-thumbnail {
     width: 50px
 }
 
-#modalWrongLang .btn {
+#modal-wrong-lang .btn {
 	min-width: 80px;
     text-align: center
 }
