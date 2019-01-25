@@ -38,7 +38,7 @@ body, .btn,
 
 @media (max-width: 1400px) {
 	.navigation .nav-link {
-    	padding-left: 0 !important
+		padding-left: .5rem !important
 	}
 }
 
