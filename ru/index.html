@@ -758,7 +758,24 @@
 				</div>
 			</div>
 		</div>
-		<div class="modal fade" tabindex="-1" role="dialog" id="modalSuccess">
+		<div class="modal fade" tabindex="-1" role="dialog" id="modal-success">
+			<div class="modal-dialog modal-md" role="document">
+				<div class="modal-content">
+					<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">×</span>
+					</button>
+					<div class="modal-body text-center col-md-8 pb-4 mx-auto">
+						<h2 class="modal-title mb-4">Спасибо!</h2>
+						<h1 class="mb-4 text-center fs-7 text-success">
+							<i class="far fa-check-circle"></i>
+						</h1>
+						<h5>Ваш запрос принят, мы уведомим вас по электронной почте!</h5>
+						<button type="button" class="btn btn-rounded btn-success px-3 modal-close" data-dismiss="modal" aria-label="Close">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="modal-success">
 			<div class="modal-dialog modal-md" role="document">
 				<div class="modal-content">
 					<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
@@ -791,6 +808,23 @@
 						<h4 class="modal-title mb-4" id="text-lang"></h4>
 						<button type="button" class="btn btn-primary btn-rounded px-3" id="accept-lang"></button>
 						<button type="button" class="btn btn-secondary btn-rounded px-3" id="dismiss-lang" data-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="modal-beta-request">
+			<div class="modal-dialog modal-md" role="document">
+				<div class="modal-content">
+					<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">×</span>
+					</button>
+					<div class="modal-body text-center col-md-10 pb-4 mx-auto">
+						<h2 class="modal-title mb-4">Пожалуйста!</h2>
+						<h5>Остаьвте заявку на участие в бета-версии. Это займёт 1 минуту.</h5>
+						<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mr-3" id="timer-register">
+							<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
+							<span class="d-md-none d-lg-inline">Начать!</span>
+						</button>
 					</div>
 				</div>
 			</div>
