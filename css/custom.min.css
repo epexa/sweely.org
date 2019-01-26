@@ -315,6 +315,8 @@ main {
 }
 
 .content-box-img,
+.feedback-greeting,
+.feedback-why,
 .content-title p,
 .content-title h4 {
     transition: .9s
@@ -377,4 +379,21 @@ main {
 #modal-wrong-lang .btn {
 	min-width: 80px;
     text-align: center
+}
+
+.feedback-why {
+	visibility: hidden;
+	opacity: 0
+}
+
+.feedback-why .btn-light {
+	width: 98%;
+	height: 98%
+}
+
+.feedback-greeting {
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%)
 }
