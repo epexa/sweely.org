@@ -67,8 +67,8 @@
 				<div class="sidebar-brand"><a href="#"><img src="../graphics/logo.png" alt="" class="logo"></a></div>
 				<ul class="nav navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="#sponsors">Спонсорам</a></li>
-					<li class="nav-item"><a class="nav-link" href="#volunteers">Волонтерам</a></li>
 					<li class="nav-item"><a class="nav-link" href="#npo">НКО</a></li>
+					<li class="nav-item"><a class="nav-link" href="#volunteers">Волонтерам</a></li>
 					<li class="nav-item"><a class="nav-link" href="#how">Как это работает</a></li>
 				</ul><span class="navbar-divider"></span>
 				<nav class="nav navbar-nav justify-content-center mt-4 mt-md-0 flex-row signin">
@@ -120,14 +120,6 @@
 							</div>
 							<h4 class="color-5 bold mt-3">Спонсор</h4>
 						</a>
-						<a href="#volunteers" class="col-12 col-md-4 py-4 px-5 d-flex flex-column b-r">
-							<div class="icon-shape mb-4"><img src="../graphics/2.svg" class="shape shape-xxl icon-xxl" alt="">
-								<div class="rounded-circle gradient gradient-34 shadow-4 p-3 d-flex align-items-center justify-content-center shadow icon-xl center-xy">
-									<h2>В</h2>
-								</div>
-							</div>
-							<h4 class="color-5 bold mt-3">Волонтер</h4>
-						</a>
 						<a href="#npo" class="col-12 col-md-4 py-4 px-5 d-flex flex-column">
 							<div class="icon-shape mb-4"><img src="../graphics/3.svg" class="shape shape-xxl icon-xxl" alt="">
 								<div class="rounded-circle bg-4 shadow-4 p-3 d-flex align-items-center justify-content-center shadow icon-xl center-xy">
@@ -135,6 +127,14 @@
 								</div>
 							</div>
 							<h4 class="color-5 bold mt-3">НКО</h4>
+						</a>
+						<a href="#volunteers" class="col-12 col-md-4 py-4 px-5 d-flex flex-column b-r">
+							<div class="icon-shape mb-4"><img src="../graphics/2.svg" class="shape shape-xxl icon-xxl" alt="">
+								<div class="rounded-circle gradient gradient-34 shadow-4 p-3 d-flex align-items-center justify-content-center shadow icon-xl center-xy">
+									<h2>В</h2>
+								</div>
+							</div>
+							<h4 class="color-5 bold mt-3">Волонтер</h4>
 						</a>
 					</div>
 				</div>
@@ -819,9 +819,9 @@
 						<span aria-hidden="true">×</span>
 					</button>
 					<div class="modal-body text-center col-md-10 pb-4 mx-auto">
-						<h2 class="modal-title mb-4">Пожалуйста!</h2>
+						<h2 class="modal-title mb-2">Пожалуйста!</h2>
 						<h5>Остаьвте заявку на участие в бета-версии. Это займёт 1 минуту.</h5>
-						<button class="btn btn-rounded btn-1 px-3 btn-accent mt-3 mr-3" id="timer-register">
+						<button class="btn btn-rounded btn-1 px-3 btn-accent mt-2 mb-4" id="timer-register">
 							<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
 							<span class="d-md-none d-lg-inline">Начать!</span>
 						</button>
@@ -836,66 +836,58 @@
 						<span aria-hidden="true">×</span>
 					</button>
 					<div class="modal-body text-center col-md-12 pb-3 pt-0 mx-auto">
-						<div class="feedback-greeting mt-4">
+						<div class="feedback-greeting">
 							<h2>Пожалуйста!</h2>
-							<h5>Уделите 1 минуту и помогите нам сделать сервис лучше!</h5>
-							<h1 class="mb-2 text-center fs-7">
-								<i class="far fa-smile-beam"></i>
-							</h1>
-							<button class="btn btn-primary btn-rounded px-3 mt-3">
-								<span class="d-md-none d-lg-inline">Хорошо!</span>
-							</button>
-						</div>
-						<div class="feedback-why">
-							<h5>Просто укажите причину по которой вы уходите с сайта и не оставили заявку</h5>
-							<div class="container-fluid mt-4 mb-4">
+							<h4>Уделите 1 минуту и помогите нам сделать сервис лучше!</h4>
+							<h5>Просто укажите причину по которой вы уходите с сайта и не оставили заявку:</h5>
+							<div class="container-fluid mt-4">
 								<div class="row">
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="0">
 											Всё хорошо - я никуда не ухожу!
 										</button>
 									</div>
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="1">
 											Я не волонтёр
 										</button>
 									</div>
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="2">
 											Я не спонсор
 										</button>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="3">
 											Я не НКО
 										</button>
 									</div>
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="4">
 											Не понимаю зачем мне это нужно
 										</button>
 									</div>
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="5">
 											Плохая идея
 										</button>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="6">
 											Плохо понятен сервис
 										</button>
 									</div>
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary btn-send-cause" data-cause="7">
 											Плохой дизайн
 										</button>
 									</div>
 									<div class="col-md-4 mb-4">
-										<button class="btn btn-light px-3">
+										<button class="btn btn-outline-primary" id="custom-cause">
 											другая причина
 										</button>
 									</div>
@@ -903,8 +895,29 @@
 							</div>
 						</div>
 					</div>
+					<div class="feedback-custom-cause mt-4">
+						<h5>Пожалуйста, опишите причину как можно более развёрнуто</h5>
+						<textarea class="form-control mt-4" rows="3" id="textarea-custom-cause"></textarea>
+						<button class="btn btn-primary btn-rounded px-3 mt-4" id="button-send-cause">
+							<span class="d-md-none d-lg-inline">Отправить</span>
+						</button>
+					</div>
+					<div class="feedback-thanks mt-4">
+						<h2>Спасибо!</h2>
+						<h1 class="text-center fs-7 text-success">
+							<i class="far fa-thumbs-up"></i>
+						</h1>
+						<h5>Пожалуйста, оставьте свой E-Mail для обратной связи!</h5>
+						<div class="input-group mt-4">
+							<input type="text" class="form-control form-control-rounded" id="request-location" name="request-location" placeholder="Ваш E-Mail" required="">
+							<div class="input-group-append">
+								<button class="btn btn-rounded btn-outline-info" type="button" id=""><i class="fas fa-check mr-md-0 mr-lg-2"></i>Отправить</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</main>
 	<footer class="site-footer section bg-5 color-1 text-center block bg-1">

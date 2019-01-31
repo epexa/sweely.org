@@ -317,6 +317,8 @@ main {
 .content-box-img,
 .feedback-greeting,
 .feedback-why,
+.feedback-thanks,
+.feedback-custom-cause,
 .content-title p,
 .content-title h4 {
     transition: .9s
@@ -381,19 +383,44 @@ main {
     text-align: center
 }
 
+/*
 .feedback-why {
 	visibility: hidden;
 	opacity: 0
 }
+*/
 
-.feedback-why .btn-light {
+.feedback-greeting .btn-outline-primary {
 	width: 98%;
 	height: 98%
 }
 
-.feedback-greeting {
-	z-index: 1;
+.feedback-greeting,
+.feedback-thanks,
+.feedback-custom-cause {
 	position: absolute;
+	visibility: hidden;
+	text-align: center;
 	left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+	z-index: 1;
+	opacity: 0;
+	top: 0
+}
+
+.feedback-greeting {
+	position: relative;
+	visibility: visible;
+	opacity: 1
+}
+
+.feedback-thanks,
+.feedback-custom-cause {
+	transform: translate(-50%,-50%);
+    top: 45%
+}
+
+.feedback-custom-cause .form-control {
+    height: 250px;
+    resize: none
 }
