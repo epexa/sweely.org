@@ -424,3 +424,7 @@ main {
     height: 250px;
     resize: none
 }
+
+.pricing .pricing-value .price:after {
+    display: none !important
+}
