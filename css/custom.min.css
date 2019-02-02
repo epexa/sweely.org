@@ -428,3 +428,7 @@ main {
 .pricing .pricing-value .price:after {
     display: none !important
 }
+
+.price i {
+	font-size: 24px
+}
