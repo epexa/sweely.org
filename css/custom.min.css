@@ -390,9 +390,8 @@ main {
 }
 */
 
-.feedback-greeting .btn-outline-primary {
-	width: 98%;
-	height: 98%
+.feedback-greeting .btn {
+	line-height: 3em;
 }
 
 .feedback-greeting,
