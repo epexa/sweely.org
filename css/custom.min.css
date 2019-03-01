@@ -431,3 +431,8 @@ main {
 .price i {
 	font-size: 24px
 }
+
+#request-login {
+	border-top-right-radius: 10rem;
+	border-bottom-right-radius: 10rem;
+}

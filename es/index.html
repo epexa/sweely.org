@@ -46,7 +46,7 @@
 	<link rel="stylesheet" href="../css/styles.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.6.3/css/all.min.css">
 	<link rel="stylesheet" href="../css/carousel.min.css">
-	<link rel="stylesheet" href="../css/custom.min.css?201901231340">
+	<link rel="stylesheet" href="../css/custom.min.css?201903011600">
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="1500" data-aos-delay="0">
@@ -673,7 +673,7 @@
 									<div class="form-group">
 										<label class="bold mb-0" for="request-account-type">Cuenta de usuario:</label>
 										<select class="form-control form-control-rounded" id="request-account-type" name="request-account-type" required="">
-											<option></option>
+											<option value="">Seleccionar</option>
 											<option value="1">OSAL</option>
 											<option value="2">Patrocinadores</option>
 											<option value="3">Voluntarios</option>
@@ -686,9 +686,20 @@
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="bold mb-0" for="request-login">Nombre de usuario:</label>
-										<div class="form-group has-icon">
-											<input type="text" id="request-login" name="request-login" class="form-control form-control-rounded" placeholder="Su nuevo nombre de usuario" required=""><i class="icon fas fa-user-plus"></i>
+										<label class="bold mb-0" for="request-login">Contacto para la comunicación:</label>
+										<div class="input-group mb-3">
+											<select class="form-control form-control-rounded" name="request-login-type" required="">
+												<option value="">Seleccionar</option>
+												<option value="1">Skype</option>
+												<option value="2">Telegram</option>
+												<option value="3">Viber</option>
+												<option value="4">Facebook</option>
+												<option value="8">WhatsApp</option>
+												<option value="7">Other</option>
+											</select>
+											<div class="input-group-append form-group has-icon">
+												<input type="text" id="request-login" name="request-login" class="form-control" required=""><i class="icon fas fa-user-plus"></i>
+											</div>
 										</div>
 									</div>
 									<div class="form-group">
@@ -845,7 +856,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@4.4.6/dist/js/swiper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-	<script src="../app.min.js?201902141530"></script>
+	<script src="../app.min.js?201903011600"></script>
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {},
