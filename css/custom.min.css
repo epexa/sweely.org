@@ -434,5 +434,10 @@ main {
 
 #request-login {
 	border-top-right-radius: 10rem;
-	border-bottom-right-radius: 10rem;
+	border-bottom-right-radius: 10rem
+}
+
+.okay-container {
+	visibility: hidden;
+	opacity: 0
 }
