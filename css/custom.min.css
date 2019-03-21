@@ -73,6 +73,14 @@ body, .btn,
 		padding-top: 0px;
 		padding-bottom: 0px
 	}
+
+	.header-v6 .main-shape-wrapper {
+		display: none
+	}
+	
+	.mt-6n {
+		margin-top: inherit !important
+	}
 }
 
 @media (max-width:536px) {
@@ -95,10 +103,6 @@ body, .btn,
 
 	.mt-6n {
 		margin-top: auto !important
-	}
-
-	.header-v6 .main-shape-wrapper {
-		display: none
 	}
 
 	.pt-0 {
@@ -212,7 +216,7 @@ body, .btn,
 	z-index: 2
 }
 
-.pt-0 {
+#resourses .container  {
 	max-height: 450px
 }
 
@@ -392,12 +396,9 @@ main {
     text-align: center
 }
 
-/*
-.feedback-why {
-	visibility: hidden;
-	opacity: 0
+.b-r {
+    border-right: none;
 }
-*/
 
 .feedback-greeting .btn {
 	line-height: 3em;
