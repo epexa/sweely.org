@@ -54,14 +54,28 @@ body, .btn,
 	#modalLang a {
 		display: grid
 	}
-}
 
-@media (max-width:536px) {
+	.navigation .navbar-toggler {
+		padding-bottom: 1.75rem
+	}
+
+	.navigation {
+		min-height: 55px !important;
+		height: 55px !important
+	}
+
 	.navigation .logo {
 		opacity: 0;
 		transition-duration: .1s
 	}
 
+	.row.gap-y>.col, .row.gap-y>[class*=col-] {
+		padding-top: 0px;
+		padding-bottom: 0px
+	}
+}
+
+@media (max-width:536px) {
 	.navbar-expanded .logo {
 		opacity: 1;
 		transition-duration: 1s
@@ -122,11 +136,6 @@ body, .btn,
 
 	.btn-circle .fab {
 		font-size: 1.5rem !important
-	}
-
-	.navigation {
-		min-height: 55px !important;
-		height: 55px !important
 	}
 
 	.section [class^=container],
